@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bc0bc24-067c-49a3-9315-d556901c2de2" name="Changes" comment="Adding IntelliJ xml files">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="9bc0bc24-067c-49a3-9315-d556901c2de2" name="Changes" comment="Adding Book Entity (Repository, Dto, Mapper, Service, Service Implementation, Controller), REST API (POST, GET), ResourceNotFoundException">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dr0pl3t/lms/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dr0pl3t/lms/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dr0pl3t/lms/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dr0pl3t/lms/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dr0pl3t/lms/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dr0pl3t/lms/service/impl/BookServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +50,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LmsBackendApplication.executor": "Run",
-    "JUnit.LmsBackendApplicationTests.executor": "Run",
-    "Maven.lms-backend [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Dev/Projects/lms-backend"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LmsBackendApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LmsBackendApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lms-backend [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Dev/Projects/lms-backend&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.LmsBackendApplication">
     <configuration name="LmsBackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dr0pl3t.lms.LmsBackendApplication" />
@@ -112,11 +115,20 @@
       <option name="project" value="LOCAL" />
       <updated>1717856036929</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding Book Entity (Repository, Dto, Mapper, Service, Service Implementation, Controller), REST API (POST, GET), ResourceNotFoundException">
+      <option name="closed" value="true" />
+      <created>1718286710336</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718286710336</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding IntelliJ xml files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding IntelliJ xml files" />
+    <MESSAGE value="Adding Book Entity (Repository, Dto, Mapper, Service, Service Implementation, Controller), REST API (POST, GET), ResourceNotFoundException" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Book Entity (Repository, Dto, Mapper, Service, Service Implementation, Controller), REST API (POST, GET), ResourceNotFoundException" />
   </component>
 </project>
